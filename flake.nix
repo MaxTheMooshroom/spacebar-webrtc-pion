@@ -77,7 +77,7 @@
               devShells.default =
                 pkgs.mkShellNoCC
                   {
-                    packages = [ pkgs.go_1_25 ];
+                    packages = [ pkgs.go_1_26 ];
                   };
             };
         }
